@@ -1,0 +1,103 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Okkur - Syna",
+  "home_page_url": "/",
+  "feed_url": "/api/index.json",
+  
+  "description": "Open Source Theme for your next project",
+  
+  
+  "items": [
+  
+  
+    {
+      "id": "/about-split/",
+      "title": "About Syna",
+      "content_text": "",
+      "url": "/about-split/",
+      "date_published": "2017-10-05 00:00:00 +0000 UTC",
+    }
+  
+  , 
+    {
+      "id": "/about/",
+      "title": "About Syna",
+      "content_text": "",
+      "url": "/about/",
+      "date_published": "2017-10-05 00:00:00 +0000 UTC",
+    }
+  
+  , 
+    {
+      "id": "/nesting/",
+      "title": "Nested Page",
+      "content_text": "",
+      "url": "/nesting/",
+      "date_published": "2017-10-05 00:00:00 +0000 UTC",
+    }
+  
+  , 
+    {
+      "id": "/",
+      "title": "Syna Theme",
+      "content_text": "",
+      "url": "/",
+      "date_published": "2017-09-07 00:00:00 +0000 UTC",
+    }
+  
+  , 
+    {
+      "id": "/resources/fragment/",
+      "title": "Syna Theme",
+      "content_text": "",
+      "url": "/resources/fragment/",
+      "date_published": "2017-09-07 00:00:00 +0000 UTC",
+    }
+  
+  , 
+    {
+      "id": "/resources/global/",
+      "title": "Syna Theme",
+      "content_text": "",
+      "url": "/resources/global/",
+      "date_published": "2017-09-07 00:00:00 +0000 UTC",
+    }
+  
+  , 
+    {
+      "id": "/resources/page/",
+      "title": "Syna Theme",
+      "content_text": "",
+      "url": "/resources/page/",
+      "date_published": "2017-09-07 00:00:00 +0000 UTC",
+    }
+  
+  , 
+    {
+      "id": "/api/index.json",
+      "title": "",
+      "content_text": "",
+      "url": "/api/index.json",
+      "date_published": "0001-01-01 00:00:00 +0000 UTC",
+    }
+  
+  , 
+    {
+      "id": "/categories/",
+      "title": "Categories",
+      "content_text": "",
+      "url": "/categories/",
+      "date_published": "0001-01-01 00:00:00 +0000 UTC",
+    }
+  
+  , 
+    {
+      "id": "/",
+      "title": "Okkur - Syna",
+      "content_text": "",
+      "url": "/",
+      "date_published": "2017-10-05 00:00:00 +0000 UTC",
+    }
+  
+  ]
+}

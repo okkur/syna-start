@@ -1,0 +1,111 @@
+# Site settings
+baseurl = "/"
+languageCode = "en-us"
+title = "Okkur - Syna"
+theme = "syna"
+themesDir = "../.."
+copyright = "" # default: Copyright $Year $params.name
+enableGitInfo = true
+
+# Google Analytics tracking
+googleAnalytics = ""
+
+[params]
+  name = "Okkur Labs"
+  description = "Open Source Theme for your next project"
+
+  [params.style]
+    #background = "secondary"
+    #background_navigation = "light" # white, light, secondary, primary, dark - default: dark
+
+  # Theme customizations
+  # Assets relative to 'static/'
+  [params.custom]
+    favicon = "favicon.ico"
+    favicon_ico_sizes = "16x16 32x32"
+    favicon_png = "favicon.png"
+    favicon_svg = "favicon.svg"
+    css = []
+    js  = []
+
+  # Piwik tracking
+  [params.analytics.piwik]
+    url = "https://use.okkur.net"
+    id = "13"
+    domain = "syna-demo.okkur.io" # Track subdomains via "*.example.com"
+    # Optional hash for integrity check
+    #hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Optional, global disable switch for fontawesome related files
+  # For custom fontawesome js files use the custom.js method
+  [params.fontawesome]
+    disabled = false
+
+[frontmatter]
+date = ["date", "lastmod"]
+lastmod = ["lastmod", ":git", "date"]
+
+# main/prepend/postpend menus are displayed in nav fragment.
+# Keep an eye out for updates. These will be moved out to make navbar more
+# configurable.
+[[menu.main]]
+  url = "#"
+  name = "Long Link"
+  weight = 10
+
+[[menu.main]]
+  url = "/about-split"
+  name = "Page-split"
+  weight = 30
+
+[[menu.main]]
+  url = "/about"
+  name = "Page-single"
+  weight = 30
+
+[[menu.main]]
+  url = "#contact"
+  name = "Contact"
+  weight = 50
+
+[[menu.main]]
+  url = "#"
+  name = "Link"
+  weight = 30
+
+[[menu.footer]]
+  url = "#"
+  name = "Link"
+  weight = 10
+
+[[menu.footer]]
+  url = "#"
+  name = "Long Link"
+  weight = 30
+
+[[menu.footer]]
+  url = "#"
+  name = "Tiny Link"
+  weight = 30
+
+[[menu.copyright_footer]]
+  url = "/about"
+  name = "About Us"
+  weight = 10
+
+[[menu.copyright_footer]]
+  url = "#"
+  name = "Another Link"
+  weight = 30
+
+[[menu.footer_social]]
+  weight = 20
+  name = "facebook"
+  pre = "fa-facebook-f"
+  url = "#"
+
+[[menu.footer_social]]
+  weight = 30
+  name = "linkedin"
+  pre = "fa-linkedin-in"
+  url = "#"

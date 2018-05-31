@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on Okkur - Syna</title>
+    <link>/resources/</link>
+    <description>Recent content in Resources on Okkur - Syna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Syna Theme</title>
+      <link>/resources/fragment/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/fragment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Syna Theme</title>
+      <link>/resources/global/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/global/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Syna Theme</title>
+      <link>/resources/page/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/page/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
