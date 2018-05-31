@@ -3,7 +3,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Okkur - Syna"
 theme = "syna"
-themesDir = "../.."
+themesDir = "themes"
 copyright = "" # default: Copyright $Year $params.name
 enableGitInfo = true
 
