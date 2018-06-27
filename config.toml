@@ -48,28 +48,18 @@ googleAnalytics = ""
 # Keep an eye out for updates. These will be moved out to make navbar more
 # configurable.
 [[menu.main]]
-  url = "#"
-  name = "Long Link"
+  url = "/"
+  name = "Home"
   weight = 10
 
 [[menu.main]]
-  url = "/about-split"
-  name = "Page-split"
-  weight = 30
-
-[[menu.main]]
   url = "/about"
-  name = "Page-single"
-  weight = 30
+  name = "About Us"
+  weight = 20
 
 [[menu.main]]
   url = "#contact"
   name = "Contact"
-  weight = 50
-
-[[menu.main]]
-  url = "#"
-  name = "Link"
   weight = 30
 
 [[menu.footer]]
