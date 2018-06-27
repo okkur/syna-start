@@ -1,33 +1,28 @@
 +++
-fragment = "item"
+fragment = "table"
 #disabled = false
-date = "2017-10-04"
-weight = 340
-#background = ""
-align = "left"
+date = "2017-10-10"
+weight = 500
+background = "light"
 
-title = "Item Fragment Image Table Left"
-#subtitle = ""
-
-# Subtitle pre and post item
-#pre = ""
-#post = ""
-
-image = "screenshot.png"
+title = "Table Fragment"
+subtitle= "Tables are responsive by default"
 
 [header]
   [[header.values]]
     text = "Header 1"
+    # hide_on_mobile = true
 
   [[header.values]]
     text = "Header 2"
-    center = true
 
   [[header.values]]
     text = "Header 3"
+    hide_on_mobile = true
 
   [[header.values]]
     text = "Header 4"
+    hide_on_mobile = true
 
   [[header.values]]
     text = "Header 5"
@@ -43,21 +38,21 @@ image = "screenshot.png"
     text = "Value"
 
   [[rows.values]]
-    text = "Value"
+    text = "Long Value"
 
   [[rows.values]]
     text = "Value"
-
-  [[rows.values]]
-    button = "Button"
-    url = "#"
-    color = "success"
-    center = true
 
   [[rows.values]]
     button = "Long Button"
     url = "#"
+    color = "success"
+
+  [[rows.values]]
+    button = "Button"
+    url = "#"
     color = "danger"
+    center = true
 
 [[rows]]
   [[rows.values]]
@@ -67,7 +62,7 @@ image = "screenshot.png"
     text = "Value"
 
   [[rows.values]]
-    text = "Long Value"
+    text = "Value"
 
   [[rows.values]]
     text = "Long Value"

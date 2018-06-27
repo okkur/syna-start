@@ -4,8 +4,12 @@ languageCode = "en-us"
 title = "Okkur - Syna"
 theme = "syna"
 themesDir = "themes"
-copyright = "" # default: Copyright $Year $params.name
 enableGitInfo = true
+version = "0.11.0"
+
+[frontmatter]
+date = ["date", "lastmod"]
+lastmod = ["lastmod", ":git", "date"]
 
 # Google Analytics tracking
 googleAnalytics = ""
@@ -16,7 +20,6 @@ googleAnalytics = ""
 
   [params.style]
     #background = "secondary"
-    #background_navigation = "light" # white, light, secondary, primary, dark - default: dark
 
   # Theme customizations
   # Assets relative to 'static/'
@@ -40,10 +43,6 @@ googleAnalytics = ""
   # For custom fontawesome js files use the custom.js method
   [params.fontawesome]
     disabled = false
-
-[frontmatter]
-date = ["date", "lastmod"]
-lastmod = ["lastmod", ":git", "date"]
 
 # main/prepend/postpend menus are displayed in nav fragment.
 # Keep an eye out for updates. These will be moved out to make navbar more
@@ -88,6 +87,12 @@ lastmod = ["lastmod", ":git", "date"]
   name = "Tiny Link"
   weight = 30
 
+[[menu.footer_social]]
+  weight = 30
+  name = "linkedin"
+  pre = "fab fa-linkedin-in"
+  url = "#"
+
 [[menu.copyright_footer]]
   url = "/about"
   name = "About Us"
@@ -101,11 +106,5 @@ lastmod = ["lastmod", ":git", "date"]
 [[menu.footer_social]]
   weight = 20
   name = "facebook"
-  pre = "fa-facebook-f"
-  url = "#"
-
-[[menu.footer_social]]
-  weight = 30
-  name = "linkedin"
-  pre = "fa-linkedin-in"
+  pre = "fab fa-facebook-f"
   url = "#"
