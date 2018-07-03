@@ -3,7 +3,6 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Okkur - Syna"
 theme = "syna"
-themesDir = "themes"
 enableGitInfo = true
 version = "0.11.0"
 
@@ -33,9 +32,9 @@ googleAnalytics = ""
 
   # Piwik tracking
   [params.analytics.piwik]
-    url = "https://use.okkur.net"
-    id = "13"
-    domain = "syna-demo.okkur.io" # Track subdomains via "*.example.com"
+    #url = ""
+    #id = ""
+    #domain = "" # Track subdomains via "*.example.com"
     # Optional hash for integrity check
     #hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
 
@@ -77,12 +76,6 @@ googleAnalytics = ""
   name = "Tiny Link"
   weight = 30
 
-[[menu.footer_social]]
-  weight = 30
-  name = "linkedin"
-  pre = "fab fa-linkedin-in"
-  url = "#"
-
 [[menu.copyright_footer]]
   url = "/about"
   name = "About Us"
@@ -97,4 +90,10 @@ googleAnalytics = ""
   weight = 20
   name = "facebook"
   pre = "fab fa-facebook-f"
+  url = "#"
+
+[[menu.footer_social]]
+  weight = 30
+  name = "linkedin"
+  pre = "fab fa-linkedin-in"
   url = "#"
