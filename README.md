@@ -38,11 +38,19 @@ We're using the standard directory structure using content pages.
 |  └ _index/ # Landing page is in this directory and it's url is changed to **/**.
 |  └ about/ # About page
 ├ layouts/ # You can add extra layout files here. A sample custom fragment is available as a sample.
-├ static/ # Your static files are in this directory. Mostly images directory is needed when using Syna. Read [resource fallthrough](https://github.com/okkur/syna/tree/v0.11.0/docs#image-resource-fallthrough) docs for more info
+├ static/ # Your static files are in this directory.
 ├ themes/ # Hugo uses this directory as a default to look for themes. Syna theme is a git submodule available in this directory.
 ├ .gitignore
 ├ .gitmodules
 ├ config.toml # Hugo config file containing general settings and menu configs.
 ```
 
-Please read [Syna's documentation](https://github.com/okkur/syna/tree/v0.11.0/docs) to understand how to add fragments and change page data.
+For storing images in the static directory, note that Syna fragments look for
+images in their own fragment directory, page directory and `static/images`
+directory. Read [resource
+fallthrough](https://github.com/okkur/syna/tree/v0.13/docs#image-resource-fallthrough)
+docs for more info.
+
+Please read [Syna's
+documentation](https://github.com/okkur/syna/tree/v0.13/docs) to understand
+how to add fragments and change page data.
