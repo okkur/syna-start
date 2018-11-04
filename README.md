@@ -48,9 +48,9 @@ We're using the standard directory structure using content pages.
 For storing images in the static directory, note that Syna fragments look for
 images in their own fragment directory, page directory and `static/images`
 directory. Read [resource
-fallthrough](https://github.com/okkur/syna/tree/v0.13/docs#image-resource-fallthrough)
+fallthrough](https://about.okkur.io/syna/docs/image-fallthrough)
 docs for more info.
 
 Please read [Syna's
-documentation](https://github.com/okkur/syna/tree/v0.13/docs) to understand
+documentation](https://about.okkur.io/syna/docs) to understand
 how to add fragments and change page data.
