@@ -7,14 +7,14 @@ This is a sample project that can be used to jump start your Syna project. It us
 To start using this starter you need to download this repository and update it's git submodules (Syna theme is added as a submodule).
 
 ```
-git clone git@github.com:okkur/syna-start.git project-name && cd $_
+git clone git@github.com:okkur/syna-start.git project-name && cd project-name
 git submodule init
 git submodule update
 ```
 
 ## Usage
 
-To start your blog run the following commands:
+To start your website run the following commands:
 
 **Development**:
 ```
@@ -23,7 +23,7 @@ $ hugo server -D
 
 **Production**:
 ```
-$ hugo # This command would generate the static website in the public directory
+$ hugo # This command would generate the static website in the public/ directory
 ```
 
 > Prerequisites: Go, Hugo
@@ -47,11 +47,6 @@ We're using the standard directory structure using content pages.
 
 For storing images in the static directory, note that Syna fragments look for
 images in their own fragment directory, page directory and `static/images`
-directory. Read [resource
-fallthrough](https://github.com/okkur/syna/tree/v0.14/docs#image-resource-fallthrough)
-docs for more info.
+directory. Read our [image fallthrough documentation](https://syna.okkur.org/docs/image-fallthrough/) for more info.
 
-Please read [Syna's
-documentation](https://github.com/okkur/syna/tree/v0.14/docs) (Some parts of
-documentation may be inaccurate. Let us know if you find any issues.) to
-understand how to add fragments and change page data.
+Further details read our [full documentation](https://syna.okkur.org/docs).
