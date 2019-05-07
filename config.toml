@@ -4,7 +4,10 @@ languageCode = "en-us"
 title = "Okkur - Syna"
 theme = "syna"
 enableGitInfo = true
-version = "0.14.0"
+version = "0.15.0"
+
+[outputs]
+  home = ["HTML", "JSON"]
 
 [frontmatter]
 date = ["date", "lastmod"]
@@ -27,8 +30,6 @@ googleAnalytics = ""
     favicon_ico_sizes = "16x16 32x32"
     favicon_png = "favicon.png"
     favicon_svg = "favicon.svg"
-    css = []
-    js  = []
 
   # Piwik tracking
   [params.analytics.piwik]
@@ -42,6 +43,17 @@ googleAnalytics = ""
   # For custom fontawesome js files use the custom.js method
   [params.fontawesome]
     disabled = false
+    pro = false
+
+  [params.colors]
+    primary = "#00838F"
+    secondary = "#868e96"
+    success = "#008f54"
+    info = "#00c9dc"
+    warning = "#fdf314"
+    danger = "#dc1200"
+    light = "#f8f9fa"
+    dark = "#343a40"
 
 # main/prepend/postpend menus are displayed in nav fragment.
 # Keep an eye out for updates. These will be moved out to make navbar more
