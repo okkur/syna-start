@@ -12,7 +12,7 @@ This is a sample project that can be used to jump start your Syna project. It us
 To start using this starter you need to clone or download this repository and update it's git submodules (Syna theme is added as a submodule).
 
 ```
-git clone git@github.com:okkur/syna-start.git project-name && cd project-name
+git clone https://github.com/okkur/syna-start project-name && cd project-name
 git submodule init
 git submodule update
 ```
