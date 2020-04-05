@@ -1,61 +1,30 @@
-# Syna Start
+<a href='https://syna.okkur.org'><img src='https://raw.githubusercontent.com/okkur/syna-start/master/static/images/logo.svg?sanitize=true' width='500'/></a>
 
-This is a sample project that can be used to jump start your Syna project. It uses Syna theme and Hugo with sample files that introduce two simple pages, one for landing and one for the about page.
+Start repository for Syna Theme
 
-## Prerequisites
-- [Install Git](https://git-scm.com/downloads).
-- [Install Go](https://golang.org/doc/install).
-- [Install Hugo](https://gohugo.io/getting-started/installing/). Depending on your system, this might require Scoop, Choclatey, or other software.
+ [![state](https://img.shields.io/badge/state-stable-green.svg)]() [![license](https://img.shields.io/github/license/okkur/syna-start.svg)](LICENSE)
 
-## Installation
 
-To start using this starter you need to clone or download this repository and update it's git submodules (Syna theme is added as a submodule).
 
-```
-git clone --recursive https://git.okkur.org/syna-start project-name
-cd project-name
+# Syna Theme Starter
+Get started with Syna right away. 
 
-```
+## Using Syna Theme Starter
+Take a look at our full [documentation](https://syna.okkur.org/docs).
 
-## Usage
+## Support
+For detailed information on support options see our [support guide](/SUPPORT.md).
 
-To start your website run the following commands:
+## Helping out
+Best place to start is our [contribution guide](/CONTRIBUTING.md).
 
-**Development**:
-```
-$ hugo server -D # This command starts the Hugo server and watches the site directory for changes.
-```
+----
 
-**Production**:
-```
-$ hugo # This command generates the static website in the public/ directory. If you do not have a site, then it gives errors about missing layout files.
-```
+*Code is licensed under the [Apache License, Version 2.0](/LICENSE).*  
+*Documentation/examples are licensed under [Creative Commons BY-SA 4.0](/docs/LICENSE).*  
+*Illustrations, trademarks and third-party resources are owned by their respective party and are subject to different licensing.*
 
-> Prerequisites: Go, Hugo
+---
 
-## Directory Structure
+Copyright 2017 - The Syna Theme Starter Authors
 
-We're using the standard directory structure using content pages.
-
-```
-├─ content/
-|  └ _global/ # All global fragments are located in this directory
-|  └ _index/ # Landing page is in this directory and it's url is changed to **/**.
-|  └ about/ # About page
-├ layouts/ # You can add extra layout files here. A sample custom fragment is available as a sample.
-├ static/ # Your static files are in this directory.
-├ themes/ # Hugo uses this directory as a default to look for themes. Syna theme is a git submodule available in this directory.
-├ .gitignore
-├ .gitmodules
-├ config.toml # Hugo config file containing general settings and menu configs.
-```
-
-For storing images in the static directory, note that Syna fragments look for
-images in their own fragment directory, page directory and `static/images`
-directory. Read our [image fallthrough documentation](https://syna.okkur.org/docs/image-fallthrough/) for more info.
-
-Further details read our [full documentation](https://syna.okkur.org/docs).
-
-## First Steps
-
-Open index.md and type. The changes are visible almost immediately at http://localhost:1313/.
