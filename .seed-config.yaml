@@ -1,0 +1,60 @@
+project:
+  name: "Syna Theme Starter"
+  state: "stable"
+  image: "https://raw.githubusercontent.com/okkur/syna-start/master/static/images/logo.svg?sanitize=true"
+  website: "https://syna.okkur.org"
+  oneLiner: "Start repository for Syna Theme"
+  description: |
+    Get started with Syna right away. 
+  version: "v0.16.2"
+
+vision:
+  type: "community"
+  overview: |
+    This project thrives make it easy to get started with Syna.
+  concept: "Built a bare bones starter repository to enable easier starting with Syna."
+  aim: "The Syna starter repository provides a basic solution to easily get up and running."
+
+supportLinks:
+  documentation: "https://syna.okkur.org/docs"
+  examples: "https://syna.okkur.org/demo"
+
+contributionLinks:
+  issueTemplate: "/.github/ISSUE_TEMPLATE.md"
+  starterIssues: "https://github.com/okkur/syna-start/labels/starter%20issue"
+
+emails:
+  commercialSupport: "support@okkur.org"
+  security: "security@okkur.org"
+  coc: "coc@okkur.org"
+
+copyright:
+  year: "2017"
+
+cla:
+  copyrightHolder: "nzt.ventures GmbH"
+  mail: "legal@nzt.ventures"
+
+maintainers:
+  - name: "Michael Grosser"
+    nick: "stp-ip"
+  - name: "Mahdi Pourismaiel"
+    nick: "mpourismaiel"
+
+repo:
+  link: "https://git.okkur.org/syna-start"
+  type: "Github"
+
+issueTemplate:
+  questions:
+  - "Hugo version"
+
+badges:
+  - image: "https://img.shields.io/badge/state-stable-green.svg"
+    alt: "state"
+  - image: "https://img.shields.io/github/license/okkur/syna-start.svg"
+    link: "LICENSE"
+    alt: "license"
+
+reposeed:
+  configVersion: "v1"
