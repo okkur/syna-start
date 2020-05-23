@@ -4,10 +4,12 @@ languageCode = "en-us"
 title = "Okkur - Syna"
 theme = "syna"
 enableGitInfo = true
-version = "0.17.0"
+version = "0.17.1"
 
 # Google Analytics tracking
 googleAnalytics = ""
+
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [outputs]
   home = ["HTML", "JSON"]
