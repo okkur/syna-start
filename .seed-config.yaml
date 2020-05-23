@@ -5,8 +5,8 @@ project:
   website: "https://syna.okkur.org"
   oneLiner: "Start repository for Syna Theme"
   description: |
-    Get started with Syna right away. 
-  version: "v0.16.2"
+    Get started with Syna right away.
+  version: "v0.17.1"
 
 vision:
   type: "community"
@@ -47,7 +47,7 @@ repo:
 
 issueTemplate:
   questions:
-  - "Hugo version"
+    - "Hugo version"
 
 badges:
   - image: "https://img.shields.io/badge/state-stable-green.svg"
