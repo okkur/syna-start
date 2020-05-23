@@ -9,6 +9,8 @@ version = "0.17.1"
 # Google Analytics tracking
 googleAnalytics = ""
 
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
 [outputs]
   home = ["HTML", "JSON"]
 
