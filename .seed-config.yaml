@@ -6,7 +6,7 @@ project:
   oneLiner: "Start repository for Syna Theme"
   description: |
     Get started with Syna right away.
-  version: "v0.17.2"
+  version: "v0.17.3"
 
 vision:
   type: "community"
