@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "Okkur - Syna"
 theme = "syna"
 enableGitInfo = true
-version = "0.17.2"
+version = "0.17.3"
 
 # Google Analytics tracking
 googleAnalytics = ""
