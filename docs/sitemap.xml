@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/portfolio/</loc>
+    <loc>https://ion-the-prize-sites.s3.us-east-2.amazonaws.com/PHYS-12/portfolio/</loc>
     <lastmod>2022-06-26T00:11:28-04:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>/portfolio/goodbye-world/</loc>
+    <loc>https://ion-the-prize-sites.s3.us-east-2.amazonaws.com/PHYS-12/portfolio/goodbye-world/</loc>
     <lastmod>2022-06-26T00:11:28-04:00</lastmod>
   </url><url>
-    <loc>/portfolio/hello-world/</loc>
+    <loc>https://ion-the-prize-sites.s3.us-east-2.amazonaws.com/PHYS-12/portfolio/hello-world/</loc>
     <lastmod>2022-06-26T00:11:28-04:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://ion-the-prize-sites.s3.us-east-2.amazonaws.com/PHYS-12/about/</loc>
     <lastmod>2018-05-31T16:55:04+04:30</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://ion-the-prize-sites.s3.us-east-2.amazonaws.com/PHYS-12/</loc>
     <lastmod>2020-09-02T01:12:25+07:00</lastmod>
   </url>
 </urlset>
