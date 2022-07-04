@@ -1,16 +1,16 @@
 +++
 fragment = "hero"
 #disabled = true
-date = "2016-09-07"
+date = "2022-06-30"
 weight = 50
-background = "light" # can influence the text color
+background = "dark" # can influence the text color
 particles = true
 
 title = "Syna Theme"
 subtitle = "Showcase your next project"
 
 [header]
-  image = "header.jpg"
+  image = "header-Sunset.jpeg"
 
 [asset]
   image = "logo.svg"
@@ -18,17 +18,17 @@ subtitle = "Showcase your next project"
   #height = "150px" # optional - will default to image height
 
 [[buttons]]
-  text = "Button"
-  url = "#"
+  text = "Portfolio"
+  url = "/portfolio/"
   color = "info" # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
 
 [[buttons]]
-  text = "Download"
+  text = "Syna Theme"
   url = "https://github.com/okkur/syna/releases"
   color = "primary"
 
 [[buttons]]
-  text = "Button"
-  url = "#"
-  color = "success"
+  text = "Rickroll"
+  url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  color = "info"
 +++

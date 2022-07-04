@@ -23,6 +23,9 @@ lastmod = ["lastmod", ":git", "date"]
     [markup.goldmark.renderer]
      unsafe = true
 
+ [security.funcs]
+    getenv = ['^HUGO_', 'DEMO_MODE']
+
 [params]
   name = "Okkur Labs"
   description = "Open Source Theme for your next project"

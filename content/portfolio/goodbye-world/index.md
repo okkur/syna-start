@@ -1,4 +1,4 @@
 +++
 title = "Goodbye World!"
-date = "2022-06-25"
+date = "2022-06-22"
 +++
