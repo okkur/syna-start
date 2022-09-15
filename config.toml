@@ -62,8 +62,9 @@ lastmod = ["lastmod", ":git", "date"]
     light = "#f8f9fa"
     dark = "#343a40"
 
-# Disable JS minification by turning the following flag to true
-# Workaround that solves the issue of the dropdown menu not being responsive
+# The following flag disables JS minification
+# If you encounter issues with the dropdown menu and the JavaScript controlling
+# it does not load properly, consider turning this to true.
 # See https://github.com/okkur/syna/issues/859 
 [minify]
 disableJS = false
@@ -83,7 +84,6 @@ disableJS = false
 
 [[menu.main]]
   url = "#contact"
-
   name = "Contact"
   weight = 30
 
