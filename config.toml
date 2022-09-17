@@ -62,6 +62,13 @@ lastmod = ["lastmod", ":git", "date"]
     light = "#f8f9fa"
     dark = "#343a40"
 
+# The following flag disables JS minification
+# If you encounter issues with the dropdown menu and the JavaScript controlling
+# it does not load properly, consider turning this to true.
+# See https://github.com/okkur/syna/issues/859 
+[minify]
+disableJS = false
+
 # main/prepend/postpend menus are displayed in nav fragment.
 # Keep an eye out for updates. These will be moved out to make navbar more
 # configurable.
